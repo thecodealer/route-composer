@@ -1,0 +1,37 @@
+{
+  "name": "route-composer",
+  "version": "1.0.0",
+  "description": "Route composer library for Express.js",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodealer/route-composer.git"
+  },
+  "keywords": [
+    "expressjs",
+    "express.js",
+    "node",
+    "nodejs",
+    "node.js",
+    "route",
+    "composer",
+    "expressjs"
+  ],
+  "author": "Isa Frimpong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecodealer/route-composer/issues"
+  },
+  "homepage": "https://github.com/thecodealer/route-composer#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1",
+    "typescript": "^5.6.3"
+  }
+}
