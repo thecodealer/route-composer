@@ -1,7 +1,7 @@
 {
   "name": "route-composer",
   "version": "1.0.3",
-  "description": "Route composer library for Express.js",
+  "description": "Route composer library for building Express.js routes similar to Laravel",
   "main": "dist/composer.js",
   "type": "module",
   "types": "dist/composer.d.ts",
