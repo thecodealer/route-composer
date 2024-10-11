@@ -1,7 +1,7 @@
 import express, { NextFunction, Router, Request, Response } from 'express';
 import { Composer } from './composer';
 import { Parser } from './parser';
-import { ParsedRoute } from './@types/parser';
+import { ParsedRoute } from './typings/parser';
 
 const defaultMiddleware = (req: Request, res: Response, next: NextFunction) => {
   next();

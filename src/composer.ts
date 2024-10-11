@@ -1,5 +1,5 @@
 import { RequestHandler } from 'express';
-import { Route, State } from './@types/composer';
+import { Route, State } from './typings/composer';
 
 export class Composer {
   state: State = {

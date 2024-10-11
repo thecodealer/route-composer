@@ -1,6 +1,6 @@
 import { Composer } from './composer';
-import { ParsedRoute } from './@types/parser';
-import { Route } from './@types/composer';
+import { ParsedRoute } from './typings/parser';
+import { Route } from './typings/composer';
 
 export class Parser {
   candidates: ParsedRoute[] = [];
